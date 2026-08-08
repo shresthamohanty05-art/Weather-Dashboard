@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="weather">
+        <h1>Weather Dashboard</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Enter city name" id="city">
+
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="weather-card">
+            <h3 class="city-name">Cuttack</h3>
+
+            <img class="weather-icon" src="" alt="Weather icon">
+
+            <p>Temperature :
+                <span class="temp">
+                    28°C
+                </span>
+            </p>
+            <p>Condition :
+                <span class="condition">
+                    Drizzle
+                </span>
+            </p>
+            <p>Humidity:
+                <span class="humidity">
+                    87%
+                </span>
+            </p>
+            <p>Wind :
+                <span class="wind">
+                    4km/h
+                </span>
+            </p>
+
+            <p class="loading"></p>
+
+        </div>
+
+    </section>
+
+
+
+        <script src="config.js"></script>
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
